@@ -1,7 +1,7 @@
 # Functional Programming
 
-⋅⋅* Functional programming is a paradigm of building computer programs using expressions and functions without mutating state and data.
-⋅⋅* By respecting these restrictions, functional programming aims to write code that is clearer to understand and more bug resistant. This is achieved by avoiding using flow-control statements (for, while, break, continue, goto) which makes the code harder to follow. Also, functional programming requires us to write pure, deterministic functions which are less likely to be buggy.
+* Functional programming is a paradigm of building computer programs using expressions and functions without mutating state and data.
+* By respecting these restrictions, functional programming aims to write code that is clearer to understand and more bug resistant. This is achieved by avoiding using flow-control statements (for, while, break, continue, goto) which makes the code harder to follow. Also, functional programming requires us to write pure, deterministic functions which are less likely to be buggy.
 
 Before diving into functional programming, one needs to understand the difference between pure and impure functions.
 
@@ -289,19 +289,28 @@ The above function for calculating factorial is similar to `f(x) = g(h(x))`, thu
 
 ## Conclusion
 
-** Functional Programming ** is a [well-researched](https://dtai.cs.kuleuven.be/topics/fp) and [robust](https://www.researchgate.net/publication/323714122_An_Overview_of_Practical_Impacts_of_Functional_Programming) paradigm of writing computer programs. With [the introduction of ES6](http://es6-features.org/),JavaScript allows for a much better functional programming experience than ever before.
+**Functional Programming** is a [well-researched](https://dtai.cs.kuleuven.be/topics/fp) and [robust](https://www.researchgate.net/publication/323714122_An_Overview_of_Practical_Impacts_of_Functional_Programming) paradigm of writing computer programs. With [the introduction of ES6](http://es6-features.org/),JavaScript allows for a much better functional programming experience than ever before.
 
 
 
 ## UNDERSTANDING THE BASICS
 
 1. What is functional programming?
+   
    Functional programming is a paradigm of building computer programs using declarations and expressions.
+
 2. Is JavaScript a functional programming language or object-oriented?
+   
    Thanks to new developments in ES6, we can say that JavaScript is both a functional as well as object-oriented programming language because of the various first-class features it provides.
+
 3. What is the advantage of functional programming?
+   
    Functional programming ensures simpler flow control in our code and avoids any surprises in the form of variable and state changes. All this helps us avoid bugs and understand out code easily.
+
 4. What are other functional programming languages?
+   
    Lisp, Erlang, Haskell, Closure, and Python are other functional programming languages. In these, Haskell is a purely functional programming language in the sense that it allows no other paradigm of programming.
+
 5. What is ES6?
+   
    ES6 or ECMAScript 6 is a new version of JavaScript that includes many new features like arrow functions, constants, and spread operators, among many others.
